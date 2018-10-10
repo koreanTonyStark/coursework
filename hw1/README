@@ -1,0 +1,11 @@
+*********************************
+Name: Jae-Hwan Jeong
+Registration Number : 2018-26716
+*********************************
+Implementation Environment
+
+- OS : GNU/Linux Ubuntu 18.04 LTS 
+- CPU : Intel(R) Core(TM) i7-8700 CPU@ 3.20 GHz
+- Programming Language : C++
+- Compile Method : g++ -o hw1 hw1.cpp 
+- Exeuction Method : Using hw1(exectuable file) do " ./hw1 [input] [output] (in that directory) "                                                                 
