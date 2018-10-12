@@ -1,7 +1,6 @@
 .SUFFIXES: .cpp .o
 
-CC = g++
-CFLAGS = -g3 -Wall -Werror -O3
+CC = g++ 
 
 OBJS1 = hw1.o
 SRCS1 = $(OBJS:.o=.cpp)

@@ -4,8 +4,12 @@ Registration Number : 2018-26716
 *********************************
 Implementation Environment
 
-- OS : GNU/Linux Ubuntu 18.04 LTS 
+- OS : Ubuntu 18.04 LTS 
+- Kernel : Linux 4.15.0-36-generic
 - CPU : Intel(R) Core(TM) i7-8700 CPU@ 3.20 GHz
 - Programming Language : C++
-- Compile Method : g++ -o hw1 hw1.cpp 
-- Exeuction Method : Using hw1(exectuable file) do " ./hw1 [input] [output] (in that directory) "                                                                 
+- Compiler and Version : gcc , g++ (7.3.0)
+- Compile Method : used Makefile, just simply stroke "make" command, then you can use it easily.
+- Exeuction format : Using hw1(executable file) do " ./hw1 [input] [output] (in that directory) "                                                      
+                           checker(executable file) do "./checker [input] [output_for_check] [result_of_checker]"
+

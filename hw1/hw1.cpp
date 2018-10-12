@@ -102,8 +102,7 @@ int computeAutomata(string *patterns, size_t num_ptrns, int g[][ALPHABET_SIZE], 
 	//2D array implementation
 	//alphabet size = {a ... z}
 	//mapping a->0, b->1, ... z->25
-	//output function -> vector<string> 
-	
+	//output function -> vector<string> 	
 	//constructing rooted directed tree 
 	int newstate=0;
 	for(int i=1; i<=num_ptrns;++i)
@@ -203,17 +202,8 @@ void BakerBird(string* text, string* patterns,int num_ptrns, int num_text, ofstr
 	int f[num_ptrns+1];
 	Prefix(patterns, f, num_ptrns);
 
-	for(int i=1;i<=num_ptrns;++i)
-		cout<<f[i]<<" ";
-	cout<<'\n';
-	
 	int h[num_ptrns+1];
 	Next(patterns, h, num_ptrns);
-
-	for(int i=1;i<=num_ptrns;++i)
-		cout<<h[i]<<" ";
-	cout<<'\n';
-
 
 	int node_size=computeNodeSize(patterns, num_ptrns);
 	int g[node_size][ALPHABET_SIZE];
